@@ -234,7 +234,7 @@ Score: 88.6% (Mar 2024)</p>
 
 ---
 
-![snake gif](https://github.com/YOUR_USERNAME/YOUR_USERNAME/blob/output/github-snake-dark.svg)
+![snake gif](https://github.com/bravetiger01/bravetiger01/blob/output/github-snake-dark.svg)
 
 ### 📊 Profile Views
 
