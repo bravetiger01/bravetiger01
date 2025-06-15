@@ -234,51 +234,14 @@ Score: 88.6% (Mar 2024)</p>
 
 ### 🐍 Watch the Snake Eat My Contributions!
 
-![Snake animation](https://raw.githubusercontent.com/bravetiger01/bravetiger01/output/github-contribution-grid-snake.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
+  <img alt="github-snake" src="github-snake.svg" />
+</picture>
 
 <details>
-<summary>🔧 How to enable the snake animation</summary>
 
-To make the snake work, you need to:
-
-1. **Create `.github/workflows/snake.yml` in your profile repository:**
-
-```yaml
-name: Generate Snake
-
-on:
-  schedule:
-    - cron: "0 */12 * * *" # every 12 hours
-  workflow_dispatch:
-  push:
-    branches:
-    - master
-
-jobs:
-  generate:
-    permissions: 
-      contents: write
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
-    
-    steps:
-      - name: generate snake.svg
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: bravetiger01
-          outputs: dist/github-contribution-grid-snake.svg?palette=github-dark
-          
-      - name: push snake.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-2. **Run the workflow manually once to generate the initial snake**
-3. **The snake will auto-update every 12 hours!**
 
 </details>
 
