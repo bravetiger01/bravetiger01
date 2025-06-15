@@ -31,11 +31,11 @@ const nakul = {
             databases: ["MySQL", "SQLite3", "MongoDB"]
         },
         aiMl: ["TensorFlow", "Keras"],
-        hardware: ["ESP32", "TOF Sensor", "Servo Motor"],
+        hardware: ["ESP32", "Max30102", "Arduino Uno"],
         tools: ["Git", "GitHub", "Google Cloud Console", "Blender", "Unity"],
         concepts: ["OOP", "3D Scanning", "IoT"]
     },
-    currentFocus: "Building AI-powered solutions for agriculture",
+    currentFocus: "Building Next-Gen Solutions",
     funFact: "I turn ideas into reality with code and hardware! 🛠️"
 };
 ```
