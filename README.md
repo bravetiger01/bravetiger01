@@ -31,11 +31,11 @@ const nakul = {
             databases: ["MySQL", "SQLite3", "MongoDB"]
         },
         aiMl: ["TensorFlow", "Keras"],
-        hardware: ["ESP32", "Max30102", "Arduino Uno"],
+        hardware: ["ESP32", "TOF Sensor", "Servo Motor"],
         tools: ["Git", "GitHub", "Google Cloud Console", "Blender", "Unity"],
         concepts: ["OOP", "3D Scanning", "IoT"]
     },
-    currentFocus: "Building Next-Gen Solutions",
+    currentFocus: "Building AI-powered solutions for agriculture",
     funFact: "I turn ideas into reality with code and hardware! 🛠️"
 };
 ```
@@ -95,14 +95,42 @@ const nakul = {
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=bravetiger01&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bravetiger01&layout=compact&langs_count=8&theme=tokyonight"/>
+### 🔥 Contribution Stats
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=bravetiger01&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bravetiger01&layout=compact&langs_count=8&theme=tokyonight&hide_border=true"/>
 
-</div>
-
-<div align="center">
-
+### 📈 Commit Streak & Activity
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=bravetiger01&theme=tokyonight&hide_border=true)
+
+### 📊 Contribution Summary
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=bravetiger01&theme=tokyonight&hide_border=true)
+
+<table>
+<tr>
+<td>
+
+![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=bravetiger01&theme=tokyonight&hide_border=true)
+
+</td>
+<td>
+
+![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=bravetiger01&theme=tokyonight&hide_border=true)
+
+</td>
+</tr>
+<tr>
+<td>
+
+![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=bravetiger01&theme=tokyonight&hide_border=true)
+
+</td>
+<td>
+
+![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=bravetiger01&theme=tokyonight&utc_offset=5.5&hide_border=true)
+
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -151,15 +179,39 @@ A functional, low-cost 3D scanner that accurately reconstructs objects with an i
 
 </div>
 
-## 📈 Contribution Graph
+## 📈 Contribution Metrics
 
 <div align="center">
 
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=bravetiger01&theme=tokyo-night&hide_border=true)
+### 📊 Detailed GitHub Stats
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=bravetiger01&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&show_icons=true&hide_border=true&custom_title=GitHub%20Stats"/>
+
+### 📈 Contribution Activity Graph
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=bravetiger01&theme=tokyo-night&hide_border=true&area=true&point=FFFFFF)
+
+### 📋 GitHub Metrics Dashboard
+![Metrics](https://metrics.lecoq.io/bravetiger01?template=classic&config.timezone=Asia%2FKolkata&repositories.forks=true&languages=1&lines=1&config.display=large)
 
 </div>
 
+## 🎓 Education & Achievements
 
+<table>
+<tr>
+<td width="50%">
+<h3>🎓 Current Education</h3>
+<p><strong>Bachelor of Engineering in IT</strong><br>
+SVIT, Vasad (2024-2028)<br>
+Expected Graduation: Feb 2025</p>
+</td>
+<td width="50%">
+<h3>🏆 Academic Achievement</h3>
+<p><strong>12th Board Examination</strong><br>
+Airport School, Ahmedabad<br>
+Score: 88.6% (Mar 2024)</p>
+</td>
+</tr>
+</table>
 
 ## 🤝 Let's Connect!
 
@@ -168,6 +220,7 @@ A functional, low-cost 3D scanner that accurately reconstructs objects with an i
 [![LinkTree](https://img.shields.io/badge/LinkTree-39E09B?style=for-the-badge&logo=linktree&logoColor=white)](https://linktr.ee/bravetiger01)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/bravetiger01)
 [![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nakulldesai2006@gmail.com)
+[![Phone](https://img.shields.io/badge/Phone-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](tel:+917016443150)
 
 </div>
 
@@ -178,6 +231,56 @@ A functional, low-cost 3D scanner that accurately reconstructs objects with an i
 ### 💭 Random Dev Quote
 
 ![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+
+### 🐍 Watch the Snake Eat My Contributions!
+
+![Snake animation](https://raw.githubusercontent.com/bravetiger01/bravetiger01/output/github-contribution-grid-snake.svg)
+
+<details>
+<summary>🔧 How to enable the snake animation</summary>
+
+To make the snake work, you need to:
+
+1. **Create `.github/workflows/snake.yml` in your profile repository:**
+
+```yaml
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 */12 * * *" # every 12 hours
+  workflow_dispatch:
+  push:
+    branches:
+    - master
+
+jobs:
+  generate:
+    permissions: 
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    
+    steps:
+      - name: generate snake.svg
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: bravetiger01
+          outputs: dist/github-contribution-grid-snake.svg?palette=github-dark
+          
+      - name: push snake.svg to the output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
+
+2. **Run the workflow manually once to generate the initial snake**
+3. **The snake will auto-update every 12 hours!**
+
+</details>
 
 ### 📊 Profile Views
 
