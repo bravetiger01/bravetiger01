@@ -152,6 +152,12 @@ pie title My Development Focus
     "Hardware Integration" : 20
 ```
 
+---
+
+![snake gif](https://github.com/bravetiger01/bravetiger01/blob/output/github-snake-dark.svg)
+
+---
+
 ## 🌟 Featured Projects
 
 <div align="center">
@@ -167,11 +173,7 @@ A multilingual AI-powered mobile app supporting small and marginal farmers with:
 - 🤖 AI chatbot assistance
 - 🛒 Integrated agri-marketplace
 
----
 
-![snake gif](https://github.com/bravetiger01/bravetiger01/blob/output/github-snake-dark.svg)
-
----
 ### 🖨️ 3D Scanning System
 [![3D Scanner](https://img.shields.io/badge/3D%20Scanner-Hardware%20Project-blue?style=for-the-badge&logo=arduino&logoColor=white)](https://github.com/bravetiger01)
 
