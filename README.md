@@ -35,7 +35,7 @@ const nakul = {
         tools: ["Git", "GitHub", "Google Cloud Console", "Blender", "Unity"],
         concepts: ["OOP", "3D Scanning", "IoT"]
     },
-    currentFocus: "Building AI-powered solutions for agriculture",
+    currentFocus: "Building AI-powered solutions",
     funFact: "I turn ideas into reality with code and hardware! 🛠️"
 };
 ```
